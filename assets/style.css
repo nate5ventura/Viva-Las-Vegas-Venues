@@ -70,12 +70,12 @@ h1 {
 }
 
 .casino1 {
-    background-image: url(../assets/images/aria.jpg);
+    background-image: url(../assets/images/planet.jpg);
     background-size: cover;
 }
 
 .casino2 {
-    background-image: url(../assets/images/luxor.jpg);
+    background-image: url(../assets/images/cromwell.jpg);
     background-size: cover;
 
 }
@@ -93,7 +93,7 @@ h1 {
 }
 
 .casino5 {
-    background-image: url(../assets/images/mirage.jpg);
+    background-image: url(../assets/images/mandalay.jpg);
     background-size: cover;
 
 }
@@ -114,6 +114,22 @@ h1 {
     background-image: url(../assets/images/venetian.jpg);
     background-size: cover;
 
+}
+
+.casino9 {
+    background-image: url(../assets/images/Encore.jpg);
+    background-size: cover;
+
+}
+
+.casino10 {
+    background-image: url(../assets/images/wynn.jpg);
+    background-size: cover;
+
+}
+
+.modal-title {
+    color: black;
 }
 
 footer {
