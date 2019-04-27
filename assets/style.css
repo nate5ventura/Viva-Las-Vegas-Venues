@@ -1,0 +1,140 @@
+body {
+    text-align: center;
+    background-image: url(../assets/images/Neon.jpeg);
+    background-size: cover;
+    font-family: 'Passion One', cursive;
+    color: white;
+}
+
+h1 {
+    font-size: 75px;
+}
+.jumbotron {
+    background-image: url(../assets/images/sign.jpg);
+    background-size: cover;
+    color: white;
+    
+}
+
+.container {
+    align-items: center;
+    padding-top:20px; 
+    padding-bottom: 40px;
+}
+
+/*  
+.box {
+    margin: 20px;
+    height:100px;
+    padding: 30px;
+    background:#BFBFBF;
+    display: inline-block; 
+    text-align: center;
+    transition-property: transform;
+    -webkit-transition-property: transform;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    border: white 5px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box:hover { 
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    
+}
+*/
+
+.card {
+    margin: 20px;
+    height:200px;
+    padding: 0px;
+    padding-top: 75px;
+    background:#BFBFBF;
+    display: inline-block; 
+    text-align: center;
+    transition-property: transform;
+    -webkit-transition-property: transform;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    border: white 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.card:hover { 
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);  
+}
+
+.casino1 {
+    background-image: url(../assets/images/planet.jpg);
+    background-size: cover;
+}
+
+.casino2 {
+    background-image: url(../assets/images/cromwell.jpg);
+    background-size: cover;
+
+}
+
+.casino3 {
+    background-image: url(../assets/images/mgm.jpg);
+    background-size: cover;
+
+}
+
+.casino4 {
+    background-image: url(../assets/images/caesars.jpg);
+    background-size: cover;
+
+}
+
+.casino5 {
+    background-image: url(../assets/images/mandalay.jpg);
+    background-size: cover;
+
+}
+
+.casino6 {
+    background-image: url(../assets/images/Cosmo.jpg);
+    background-size: cover;
+
+}
+
+.casino7 {
+    background-image: url(../assets/images/bellagio.jpg);
+    background-size: cover;
+
+}
+
+.casino8 {
+    background-image: url(../assets/images/venetian.jpg);
+    background-size: cover;
+
+}
+
+.casino9 {
+    background-image: url(../assets/images/Encore.jpg);
+    background-size: cover;
+
+}
+
+.casino10 {
+    background-image: url(../assets/images/wynn.jpg);
+    background-size: cover;
+
+}
+
+.modal-title {
+    color: black;
+}
+
+footer {
+    height: 75px;
+    background: #363d66;
+    text-align: left;
+    padding: 25px;
+}
