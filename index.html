@@ -18,60 +18,80 @@
 
 </head>
 <body>
+    <!-- Site header is a jumbotron -->
     <div class="jumbotron rounded">
 
         <h1>Viva Las Vegas Venues!</h1>
 
     </div>
-<div class="container">
 
-    <div class="row">
+    <!-- Container to hold the Casino Cards -->
+    <div class="container">
 
-        <div class="card casino1 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Planet Hollywood</div>
-        <div class="card casino2 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Cromwell</div>
-        <div class="card casino3 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">MGM</div>
-        <div class="card casino4 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Caesars</div>
-        <div class="card casino5 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Mandalay Bay</div>
-        <div class="card casino6 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Cosmopolitan</div>
-        <div class="card casino7 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Bellagio</div>
-        <div class="card casino8 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Venetian</div>
-        <div class="card casino9 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Encore</div>
-        <div class="card casino10 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Wynn</div>
+        <div class="row">
+
+            <!-- Cards for each Casino Venu with data toggles for the modal upon click -->
+            <div class="card casino1 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Planet Hollywood</div>
+            <div class="card casino2 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Cromwell</div>
+            <div class="card casino3 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">MGM</div>
+            <div class="card casino4 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Caesars</div>
+            <div class="card casino5 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Mandalay Bay</div>
+            <div class="card casino6 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Cosmopolitan</div>
+            <div class="card casino7 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Bellagio</div>
+            <div class="card casino8 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Venetian</div>
+            <div class="card casino9 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Encore</div>
+            <div class="card casino10 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Wynn</div>
+
+        </div>
 
     </div>
 
-</div>
+    <!-- Modal page to appear upon click of cards-->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Upcoming Events!</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+        <div class="modal-dialog modal-lg" role="document">
+
+            <div class="modal-content">
+
+                <!-- Header for the modal -->
+                <div class="modal-header">
+
+                    <h5 class="modal-title" id="exampleModalLongTitle">Upcoming Events!</h5>
+
+                    <!-- x button to close the modal -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    
+                    </button>
+
+                </div>
+
+                <!-- below class is where to append the Events and Videos dynamically from our two APIs -->
+                <div class="modal-body">
+                    ...
+                </div>
+
+            </div>
+
         </div>
-        <div class="modal-body">
-          ...
-        </div>
-      </div>
+    
     </div>
-  </div>
 
-<div>
+    <div>
+        <!-- Site Footer -->
+        <footer class="text-muted">
+            <p>What happens in Vegas...</p>
 
-    <footer class="text-muted">
-        <p>What happens in Vegas...</p>
+        </footer>
 
-    </footer>
-
-</div>
+    </div>
 
     <!-- link to bootstrap and jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
     <!-- link to Javascript -->
     <script type="text/javascript" src="assets/app.js"></script> 
+
 </body>
 </html>

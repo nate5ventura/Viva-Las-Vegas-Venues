@@ -129,7 +129,13 @@ h1 {
 }
 
 .modal-title {
+    
+}
+
+.modal-content {
     color: black;
+   
+    max-width: 100%;
 }
 
 footer {
