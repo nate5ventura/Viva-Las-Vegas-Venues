@@ -7,14 +7,17 @@
 
     <title>Viva Las Vegas Venues!</title>
 
-    <!-- link to googlefonts -->
-    <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
     <!-- link to Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+     <!-- link to googlefonts -->
+     <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
     <!-- link to CSS Stylesheet-->
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <!-- link to jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- link to Javascript -->
+    <script type="text/javascript" src="assets/app.js"></script>  
+    
 
 </head>
 <body>
@@ -31,16 +34,16 @@
         <div class="row">
 
             <!-- Cards for each Casino Venu with data toggles for the modal upon click -->
-            <div class="card casino1 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Planet Hollywood</div>
-            <div class="card casino2 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Cromwell</div>
-            <div class="card casino3 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">MGM</div>
-            <div class="card casino4 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Caesars</div>
-            <div class="card casino5 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Mandalay Bay</div>
-            <div class="card casino6 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Cosmopolitan</div>
-            <div class="card casino7 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Bellagio</div>
-            <div class="card casino8 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Venetian</div>
-            <div class="card casino9 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Encore</div>
-            <div class="card casino10 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong">Wynn</div>
+            <div class="card casino1 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong" data-id="1535">Planet Hollywood</div>
+            <div class="card casino2 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong" data-id="60309">Cromwell</div>
+            <div class="card casino3 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong" data-id="142">MGM</div>
+            <div class="card casino4 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong" data-id="77894">Caesars</div>
+            <div class="card casino5 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong" data-id="2962">Mandalay Bay</div>
+            <div class="card casino6 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong" data-id="3846">Cosmopolitan</div>
+            <div class="card casino7 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong" data-id="3756">Bellagio</div>
+            <div class="card casino8 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong" data-id="4358">Venetian</div>
+            <div class="card casino9 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong" data-id="8719">Encore</div>
+            <div class="card casino10 m-3 col-md-2 rounded" data-toggle="modal" data-target="#exampleModalLong" data-id="3243">Wynn</div>
 
         </div>
 
@@ -56,10 +59,11 @@
                 <!-- Header for the modal -->
                 <div class="modal-header">
 
-                    <h5 class="modal-title" id="exampleModalLongTitle">Upcoming Events!</h5>
+                    <h2 class="modal-title" id="exampleModalLongTitle">Upcoming Events!</h>
 
                     <!-- x button to close the modal -->
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        
                         <span aria-hidden="true">&times;</span>
                     
                     </button>
@@ -67,7 +71,7 @@
                 </div>
 
                 <!-- below class is where to append the Events and Videos dynamically from our two APIs -->
-                <div class="modal-body">
+                <div class="modal-body events-list">
                     ...
                 </div>
 
