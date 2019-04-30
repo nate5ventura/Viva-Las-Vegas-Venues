@@ -3,16 +3,25 @@ body {
     background-image: url(../assets/images/Neon.jpeg);
     background-size: cover;
     font-family: 'Passion One', cursive;
-    color: white;
+    color: #fbf8fd;
 }
 
 h1 {
     font-size: 75px;
 }
+
+h3 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
 .jumbotron {
     background-image: url(../assets/images/sign.jpg);
     background-size: cover;
-    color: white;
+    color: #fbf8fd;
     
 }
 
@@ -22,29 +31,6 @@ h1 {
     padding-bottom: 40px;
 }
 
-/*  
-.box {
-    margin: 20px;
-    height:100px;
-    padding: 30px;
-    background:#BFBFBF;
-    display: inline-block; 
-    text-align: center;
-    transition-property: transform;
-    -webkit-transition-property: transform;
-    transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    border: white 5px solid;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.box:hover { 
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    
-}
-*/
 
 .card {
     margin: 20px;
@@ -58,7 +44,7 @@ h1 {
     -webkit-transition-property: transform;
     transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s;
-    border: white 5px;
+    border: #fbf8fd 5px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 30px;
@@ -128,14 +114,73 @@ h1 {
 
 }
 
-.modal-title {
+.modal-content {
+    
+   
+}
+
+.modal-header {
+    background: #363d66;
+    color: rgb(255, 255, 255);
+}
+
+.close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    color: #fbf8fd;
+}
+
+.events-list {
+  background:  #8d97d1;
+  
+}
+
+.event-container {
+    background: #c7cef5;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: black;  
     
 }
 
-.modal-content {
-    color: black;
-   
-    max-width: 100%;
+.ticket-link {
+    font-size: 35px;
+}
+
+/* unvisited link */
+a:link {
+    color: hsl(24, 92%, 53%);
+}
+  
+/* visited link */
+a:visited {
+    color: #0a1661;
+}
+
+/* mouse over link */
+a:hover {
+    color: #363d66;
+}
+
+/* selected link */
+a:active {
+    color: #ff9847;
+}
+
+.show-video {
+    background: #7f90f1;
+    color: #fbf8fd;
+    font-size: 30px;
+}
+
+.video-area {
+    height: 100px;
+    background: white;
+}
+
+.hide {
+    display: none;
 }
 
 footer {
