@@ -15,15 +15,23 @@ $(document).on("click", ".card", function(){
 
 //2. on click event: for user click on show video button under each upcoming event in the Modal.  This will open with slide down the YouTube video of that performer. 
 
+
 $(document).on("click", ".show-video", function(){
+    $(".video-area").slideDown("slow");
+    
+});
+
+
+
     //var vidBox = $("<div>")
     //vidbox.attr()
 
     //$(".show-video").slideDown("fast");
+    //$(".video-area").slideDown("slow");
 
     // (this).insertAfter()
     //getYouTubeVideos(title);
-});
+
 
 
 
@@ -55,8 +63,6 @@ function getUpcomingEvents(venueId) {
             var title = response.events[i].title
             var date = response.events[i].datetime_local
             var tickets = response.events[i].url
-            
-    
 
             console.log(title);
             console.log(date);
@@ -64,6 +70,7 @@ function getUpcomingEvents(venueId) {
 
             // new div for events:
             var eventDiv = $("<div>");
+            eventDiv.addClass("container rounded event-container");
             //create an event element:
             eventTitle = $("<h3>");
             //attach text to the event element:
@@ -73,7 +80,8 @@ function getUpcomingEvents(venueId) {
             eventDate.text("Date: "+ date);
 
             eventTickets = $("<a>").attr("href", tickets);
-            eventTickets.attr("target", "_blank")
+            eventTickets.addClass("ticket-link");
+            eventTickets.attr("target", "_blank");
             eventTickets.text("Buy Tickets");
 
             var br = $("<br>");
@@ -85,10 +93,16 @@ function getUpcomingEvents(venueId) {
             videoButton.attr("data-name", title);
             // add text to button variable: 
             videoButton.text("Take a look!");
-            
+    
+            // add div to contain the youtube video:
+            var videoBox = $("<div>");
+            // add class to the div for youtube video:
+            videoBox.addClass("video-area hide");
+            videoBox.attr("id", "player");
 
-            eventDiv.append(eventTitle, eventDate, eventTickets, br, videoButton);
-
+            // append the above variables to the eventDiv container:
+            eventDiv.append(eventTitle, eventDate, eventTickets, br, videoButton, videoBox);
+            // append the eventDiv to the HTML class "events-list":
             $(".events-list").append(eventDiv);
         }
 
