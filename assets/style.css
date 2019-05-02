@@ -1,3 +1,4 @@
+/* styling for the site body and background */
 body {
     text-align: center;
     background-image: url(../assets/images/Neon.jpeg);
@@ -5,7 +6,7 @@ body {
     font-family: "Passion One", cursive;
     color: #fbf8fd;
 }
-
+/* font sizes by element type */
 h1 {
     font-size: 75px;
 }
@@ -18,18 +19,21 @@ p {
     font-size: 25px;
 }
 
+/* styling for site header using jumbotron */
 .jumbotron {
     background-image: url(../assets/images/sign.jpg);
     background-size: cover;
     color: #fbf8fd;
 }
 
+/* styling for the container class holding the casino venue cards */
 .container {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 40px;
 }
 
+/* styling for the casino venue cards */
 .card {
     margin: 20px;
     height: 200px;
@@ -48,13 +52,15 @@ p {
     font-size: 30px;
 }
 
+/* hover feature for the casino venue cards */
 .card:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
 }
 
+/* images for the casino venue cards */
 .casino1 {
-    background-image: url(../assets/images/planet.jpg);
+    background-image: url(../assets/images/treasure.jpg);
     background-size: cover;
 }
 
@@ -103,24 +109,24 @@ p {
     background-size: cover;
 }
 
-.modal-content {
-}
-
+/* header for upcoming event modal */
 .modal-header {
     background: #363d66;
     color: rgb(255, 255, 255);
 }
-
+/*  the close button on the modal header */
 .close {
     padding: 1rem 1rem;
     margin: -1rem -1rem -1rem auto;
     color: #fbf8fd;
+    float: right;
 }
-
+/* styling for the events list background */
 .events-list {
     background: #8d97d1;
 }
 
+/* styling for the individual event containers */
 .event-container {
     background: #c7cef5;
     float: left;
@@ -129,45 +135,50 @@ p {
     color: black;
 }
 
+/* ticket link styling */
 .ticket-link {
     font-size: 35px;
 }
 
-/* unvisited link */
+/* ticket link: unvisited link */
 a:link {
     color: hsl(24, 92%, 53%);
 }
 
-/* visited link */
+/* ticket link: visited link */
 a:visited {
     color: #0a1661;
 }
 
-/* mouse over link */
+/* ticket link: mouse over link */
 a:hover {
     color: #363d66;
 }
 
-/* selected link */
+/* ticket link: selected link */
 a:active {
     color: #ff9847;
 }
 
+/* styling for the show video button */
 .show-video {
     background: #7f90f1;
     color: #fbf8fd;
     font-size: 30px;
 }
 
+/* styling for the show video drop down area */
 .video-area {
     height: 400px;
     background: white;
 }
 
+/* to hide the video area */
 .hide {
     display: none;
 }
 
+/* styling for the footer */
 footer {
     height: 75px;
     background: #363d66;
