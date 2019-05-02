@@ -2,7 +2,7 @@ body {
     text-align: center;
     background-image: url(../assets/images/Neon.jpeg);
     background-size: cover;
-    font-family: 'Passion One', cursive;
+    font-family: "Passion One", cursive;
     color: #fbf8fd;
 }
 
@@ -22,23 +22,21 @@ p {
     background-image: url(../assets/images/sign.jpg);
     background-size: cover;
     color: #fbf8fd;
-    
 }
 
 .container {
     align-items: center;
-    padding-top:20px; 
+    padding-top: 20px;
     padding-bottom: 40px;
 }
 
-
 .card {
     margin: 20px;
-    height:200px;
+    height: 200px;
     padding: 0px;
     padding-top: 75px;
-    background:#BFBFBF;
-    display: inline-block; 
+    background: #bfbfbf;
+    display: inline-block;
     text-align: center;
     transition-property: transform;
     -webkit-transition-property: transform;
@@ -50,9 +48,9 @@ p {
     font-size: 30px;
 }
 
-.card:hover { 
+.card:hover {
     transform: scale(1.1);
-    -webkit-transform: scale(1.1);  
+    -webkit-transform: scale(1.1);
 }
 
 .casino1 {
@@ -63,60 +61,49 @@ p {
 .casino2 {
     background-image: url(../assets/images/cromwell.jpg);
     background-size: cover;
-
 }
 
 .casino3 {
     background-image: url(../assets/images/mgm.jpg);
     background-size: cover;
-
 }
 
 .casino4 {
     background-image: url(../assets/images/caesars.jpg);
     background-size: cover;
-
 }
 
 .casino5 {
     background-image: url(../assets/images/mandalay.jpg);
     background-size: cover;
-
 }
 
 .casino6 {
     background-image: url(../assets/images/Cosmo.jpg);
     background-size: cover;
-
 }
 
 .casino7 {
     background-image: url(../assets/images/bellagio.jpg);
     background-size: cover;
-
 }
 
 .casino8 {
     background-image: url(../assets/images/venetian.jpg);
     background-size: cover;
-
 }
 
 .casino9 {
     background-image: url(../assets/images/Encore.jpg);
     background-size: cover;
-
 }
 
 .casino10 {
     background-image: url(../assets/images/wynn.jpg);
     background-size: cover;
-
 }
 
 .modal-content {
-    
-   
 }
 
 .modal-header {
@@ -131,8 +118,7 @@ p {
 }
 
 .events-list {
-  background:  #8d97d1;
-  
+    background: #8d97d1;
 }
 
 .event-container {
@@ -140,8 +126,7 @@ p {
     float: left;
     margin-top: 15px;
     margin-bottom: 10px;
-    color: black;  
-    
+    color: black;
 }
 
 .ticket-link {
@@ -152,7 +137,7 @@ p {
 a:link {
     color: hsl(24, 92%, 53%);
 }
-  
+
 /* visited link */
 a:visited {
     color: #0a1661;
@@ -175,7 +160,7 @@ a:active {
 }
 
 .video-area {
-    height: 100px;
+    height: 400px;
     background: white;
 }
 
@@ -189,3 +174,5 @@ footer {
     text-align: left;
     padding: 25px;
 }
+
+
