@@ -119,7 +119,9 @@ p {
     padding: 1rem 1rem;
     margin: -1rem -1rem -1rem auto;
     color: #fbf8fd;
-    float: right;
+    position: absolute;
+    right: 20px;
+    top: 5px;
 }
 /* styling for the events list background */
 .events-list {
