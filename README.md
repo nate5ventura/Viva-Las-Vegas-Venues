@@ -4,7 +4,7 @@ App to provide upcoming events at various Las Vegas Venues.  The app will pull f
 
 <img src="assets/images/app.jpg">
 
-To view live application:   insert GitHub deployed https link.
+To view live application:   https://nate5ventura.github.io/Viva-Las-Vegas-Venues/
 
 1. App allows user to select various venues in Las Vegas. 
 
